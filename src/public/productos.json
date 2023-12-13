@@ -1,0 +1,35 @@
+[
+  {
+    "id": "bb3b8124-9301-4582-99fc-c8b177dbbca7",
+    "title": "asd",
+    "description": "asd",
+    "code": "asd",
+    "price": 10,
+    "status": true,
+    "stock": 2,
+    "category": "asd",
+    "thumbnails": []
+  },
+  {
+    "id": "56b148cd-d3ad-41a4-8154-bad5b409deea",
+    "title": "asd",
+    "description": "asd",
+    "code": "asd",
+    "price": 10,
+    "status": true,
+    "stock": 2,
+    "category": "asd",
+    "thumbnails": []
+  },
+  {
+    "id": "999643d3-8893-4681-aea6-fee2289fec4e",
+    "title": "asd",
+    "description": "asd",
+    "code": "asd",
+    "price": 10,
+    "status": true,
+    "stock": 2,
+    "category": "asd",
+    "thumbnails": []
+  }
+]
