@@ -54,7 +54,6 @@ cartsRouter.post('/:cid/product/:pid', (req, res) => {
     const productId = req.params.pid;
     const quantity = req.body.quantity || 1;
   
-    // Validar que la cantidad sea un número positivo
     if (!Number.isInteger(quantity) || quantity <= 0) {
       return res.status(400).json({ error: 'Invalid quantity' });
     }
@@ -63,7 +62,6 @@ cartsRouter.post('/:cid/product/:pid', (req, res) => {
       const cartsData = fs.readFileSync(CARTS_FILE, 'utf8');
       let carts = JSON.parse(cartsData);
       
-      // Buscar el carrito por ID
       const cartIndex = carts.findIndex((c) => c.id === cartId);
   
       if (cartIndex !== -1) {

@@ -2,8 +2,6 @@ import { Router } from "express";
 import fs from 'fs';
 const productsRouter = Router();
 import crypto from 'crypto';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 
 
 const PRODUCTS_FILE = './src/public/productos.json';
